@@ -1,0 +1,7 @@
+nome = input("Insira seu nome completo: ")
+print(nome.upper())
+print(nome.lower())
+print(nome.strip())
+dividido = (nome.split())
+print(len(dividido[0]))
+print(''.join(dividido))
